@@ -1,4 +1,6 @@
-
+from tkinter import *
+root=Tk()
+root.geometry("800x400")
 
 # # data in x
 # x=[32,33,34,35,36,37,38,39,40,41]
@@ -9,7 +11,10 @@ x=[]
 f=[]
 x1="DATA"
 f1="Frequency"
-
+fr1=Frame(root,bg="aqua")
+fr1.pack(side=TOP,fill=X)
+heading=Label(fr1,text="MODAL VALUE FINDER",pady=10,padx=10,borderwidth=5,relief=GROOVE)
+heading.pack()
 
 
 def takevalue(x,x1):
@@ -213,3 +218,4 @@ while(j<=6):
     j=j+1
     
     
+root.mainloop()
