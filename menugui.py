@@ -10,7 +10,7 @@ canvas_height = 566
 root.geometry(f"{canvas_width}x{canvas_height}")
 root.title("My GUI With harry")
 # width , height
-root.minsize(400,200)
+root.minsize(200,100)
 def myfunc():
     print("file opened")
     
